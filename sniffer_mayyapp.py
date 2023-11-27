@@ -3,7 +3,7 @@ import socket
 import struct
 import time
 
-def write_to_csv(count_dic, filename='sniffer_svkumar2.csv'):
+def write_to_csv(count_dic, filename='sniffer_mayyapp.csv'):
     with open(filename, 'w') as file:
         writer = csv.writer(file)
         for key, value in count_dic.items():
