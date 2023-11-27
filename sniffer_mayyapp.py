@@ -64,7 +64,7 @@ def start():
             elif proto == 17:  # UDP packet
                 data = process_udp_packet(data, count)
 
-    print("count_dic", count)
+    print("Packet count: ", count)
     write_to_csv(count)
 
 if __name__ == "__main__":
